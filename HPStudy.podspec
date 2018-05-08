@@ -9,6 +9,5 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "HuangYiFeng" => "harryphone@163.com" }
   s.source       = { :git => "https://github.com/harryphone/HPStudy.git", :tag => "#{s.version}" }
-  s.source_files  = 'ModularizationStudy/**/*.{c,h,hh,m,mm,cpp}'
- 
+  s.source_files  = "Classes", "Classes/**/*.{h,m}" 
 end
